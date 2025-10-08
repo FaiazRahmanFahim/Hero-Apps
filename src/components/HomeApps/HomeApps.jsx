@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import HomeApp from "./HomeApp/HomeApp";
 
 const HomeApps = ({ homeData }) => {
-  console.log(homeData);
+  //console.log(homeData);
 
   return (
     <div className="my-10 space-y-5">

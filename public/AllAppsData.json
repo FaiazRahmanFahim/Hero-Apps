@@ -1,0 +1,578 @@
+[
+  {
+    "image": "https://example.com/images/telegram.png",
+    "title": "Telegram",
+    "companyName": "Telegram Messenger LLP",
+    "id": 9,
+    "description": "Telegram is a cloud‑based messaging platform engineered for speed, privacy, and flexibility. It allows users to send text messages, voice and video calls, multimedia files of virtually any size, and create group chats, large channels, and broadcast lists. Unlike many messaging apps, Telegram offers “Secret Chats” with end‑to‑end encryption and self‑destruct timers, so messages vanish after a specified time. Users can also create bots, custom themes, stickers, and widgets. The app supports seamless cloud sync across devices, so chats persist even when you change devices. Telegram’s open API invites developers to build integrations and bots to extend functionality—allowing tasks like polls, reminders, file hosting, and more. It is known for reliability even on slow connections and for working in regions with restrictive internet policies. With features like scheduled messages, editing, forwarding without trace, and multi‑device support, Telegram aims to be more than just a chat tool—it’s a full messaging ecosystem. Its emphasis on speed, security, customization, and extensibility makes it popular among privacy‑conscious users, developers, and communities seeking rich chat features without compromising control or performance.",
+    "size": 60,
+    "reviews": 4500000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 150000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 3930000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 10,
+    "description": "TikTok is a dynamic social media and video platform designed around user creativity, trends, and short, engaging videos. Users can record, edit, and upload videos—from 15 seconds to several minutes—using an array of filters, effects, transitions, speed controls, soundtracks, and AR features. The app’s powerful recommendation algorithm (the For You page) curates content based on user interactions, watch time, likes, and follows, keeping the experience highly addictive and personalized. Beyond entertainment, TikTok supports live streaming, e‑commerce through integrated shopping features, and creator monetization via virtual gifts and brand partnerships. It encourages remixes, duets, and challenges, fostering a participatory culture where users build on one another’s content. Analytics tools help creators track reach, engagement, and audience demographics. TikTok also incorporates safety, moderation, and content guidelines to manage community standards. As the platform evolves, it now hosts educational content, local business promotions, and immersive campaigns. With billions of downloads globally, TikTok remains a cultural force—blurring the lines between social media, entertainment, and commerce while offering creators and viewers ever more tools and opportunities to express, connect, and inspire.",
+    "size": 120,
+    "reviews": 15000000,
+    "ratingAvg": 4.4,
+    "downloads": 2000000000,
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2500000 },
+      { "name": "5 star", "count": 11800000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/googlemaps.png",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 11,
+    "description": "Google Maps is a comprehensive navigation, geolocation, and mapping tool that helps millions of users plan routes, explore local areas, and travel with confidence. Whether you’re driving, walking, biking, or using public transit, Google Maps provides turn‑by‑turn voice navigation, live traffic updates, incidents, alternate routing, and estimated arrival times. Users can download offline maps for regions where connectivity is limited, ensuring navigation works even without an internet connection. The app integrates search for local businesses — restaurants, shops, gas stations — with detailed listings including ratings, photos, opening hours, reviews, and menus. Street View offers 360° panoramic views of streets and buildings, while 3D maps and indoor floor plans enhance exploration. Users also benefit from features like timeline history (tracking past trips), commute planning, live view AR walking directions, and integration with rideshare apps. Google Maps is constantly updated with new infrastructure, traffic insights, and geographic corrections, making it among the most trusted and accurate mapping services globally. For travelers, commuters, and everyday users alike, it’s a one‑stop solution for exploring and navigating the world.",
+    "size": 100,
+    "reviews": 9000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 120000 },
+      { "name": "3 star", "count": 280000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 8200000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/slack.png",
+    "title": "Slack",
+    "companyName": "Slack Technologies, Inc.",
+    "id": 12,
+    "description": "Slack is a collaboration and messaging platform built to streamline team communication and reduce context switching. It organizes conversations into channels, direct messages, and threads, making it easier for teams to maintain clarity around topics. Users can drop files, images, links, code snippets, and collaborate via comments or reactions. Slack integrates with a broad ecosystem—Google Drive, Trello, Jira, GitHub, Asana, Zoom, and more—bringing external notifications, actions, and workflows into one interface. Features like message search, threads, reminders, pinned items, and workflows support productivity. Slack supports voice calls, video calls, screen sharing, and “huddles” for lightweight audio collaboration. Administrators can manage workspaces, roles, permissions, and guest access to scale across organizations. With Slack Connect, multiple organizations can collaborate securely in shared channels. Its app directory and bot framework enable custom automations and extensions. Slack is widely adopted in startups, remote teams, and enterprises alike, offering flexibility in real-time communication, asynchronous updates, and integrations to reduce tool fragmentation. It continues evolving with features like shared channels, canvas, and deeper automation to support modern workflows.",
+    "size": 150,
+    "reviews": 3200000,
+    "ratingAvg": 4.3,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 90000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 2700000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/minecraft.png",
+    "title": "Minecraft",
+    "companyName": "Mojang Studios",
+    "id": 13,
+    "description": "Minecraft is a sandbox adventure and building game that gives players the freedom to create, explore, and survive in infinite procedurally generated worlds made of blocks. In Creative mode, users have unlimited resources to build structures, landscapes, and imaginative creations. In Survival mode, players must gather materials, craft tools and weapons, manage health and hunger, and defend against creatures like zombies, spiders, and creepers. Minecraft also supports multiplayer worlds, realms, servers, and modding, enabling community creativity, custom maps, and cooperative play. The variety of biomes, caves, villages, strongholds, and resource patterns offers endless exploration and discovery. With Redstone (a logic circuit system), players can build complex machines, contraptions, and automations. Minecraft is also used in education (teaching coding, geometry, architecture) and in creative studios. Updates constantly add new blocks, mobs, mechanics, and cross-platform compatibility, ensuring fresh content. Its appealing pixelated aesthetic, deep gameplay mechanics, and social engagement make Minecraft a timeless, richly layered experience for all ages.",
+    "size": 250,
+    "reviews": 8000000,
+    "ratingAvg": 4.7,
+    "downloads": 800000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 6000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/snapchat.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 14,
+    "description": "Snapchat is a multimedia messaging app centered around ephemeral content and creative expression. Users send “Snaps” — photos or short videos — that disappear after being viewed, encouraging spontaneous sharing. The app features Stories which last 24 hours, augmented reality (AR) lenses and filters, Bitmoji avatars, and Discover content (news, shows, magazines). Snapchat also offers group chat, voice/video calls, and augmented maps to see friends’ locations. The platform emphasizes playful, transient interactions enhanced by creative tools like drawing, stickers, text overlays, and special effects. Snapchat’s algorithmic Spotlight feed highlights the most engaging short videos from users. It supports interactive augmented experiences, music integration, and commerce through brand AR campaigns. Snap has evolved with features like Snap Map, memory storage, and cross-platform sync. Users value its candid, visually expressive style and intimate, dynamic social experience. Snapchat continues growing as both a communication platform and creative social canvas, especially among younger demographics.",
+    "size": 110,
+    "reviews": 5500000,
+    "ratingAvg": 4.2,
+    "downloads": 700000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 5350000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/evernote.png",
+    "title": "Evernote",
+    "companyName": "Evernote Corporation",
+    "id": 15,
+    "description": "Evernote is a versatile note‑taking, organization, and productivity application that helps users capture ideas, to‑dos, research, and projects in a single digital workspace. It supports typed notes, handwriting (on supported devices), document scanning, web clipping, audio notes, images, and attachments. Content is organized into notebooks, stacks, tags, and powerful search with OCR, allowing users to quickly find information—even within images and PDFs. Evernote syncs across devices so users can access their notes anywhere. Its features include templates, reminders, checklists, collaborative note sharing, and integrations with apps like Google Drive, Outlook, Slack, and more. It also supports rich formatting (tables, lists, links) and embedding content. Evernote is popular with students, researchers, professionals, and creatives looking to centralize their information and ideas. The platform is continuously improved with updates—adding dark mode, improved editors, faster sync, and new integrations. With its flexible structure, powerful search, offline access, and cross‑device support, Evernote aims to be the backbone of one’s digital brain and workflow.",
+    "size": 90,
+    "reviews": 2400000,
+    "ratingAvg": 4.4,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 2140000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/uber.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 16,
+    "description": "Uber is a ride‑hailing and mobility platform connecting passengers with drivers in real time. Users can request rides, view estimated fares, track their driver’s arrival, and pay within the app. In many regions, Uber also offers Uber Eats (food delivery), Uber Freight (logistics), and shared ride options to reduce cost. The app uses maps, dynamic pricing, and algorithms to optimize route efficiency and dispatch. Drivers can view trip details, accept requests, and get routing and earnings breakdowns. Safety features include in‑trip GPS tracking, emergency buttons, ride share details, and driver/passenger ratings. Uber continuously refines features like driver incentives, surge pricing management, and ride pooling. The app is widely adopted in major cities and expanding into micromobility, public transit integration, and autonomous driving research. For users, Uber offers convenience, cashless payments, ride preferences (e.g. “quiet ride”), and trip history. Uber’s impact on urban mobility has transformed commuting, delivery, and transportation ecosystems in cities across the globe, making it a household name in on‑demand mobility.",
+    "size": 130,
+    "reviews": 5000000,
+    "ratingAvg": 4.1,
+    "downloads": 600000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 4180000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/netflix.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 17,
+    "description": "Netflix is a global streaming entertainment service that provides a vast library of movies, TV series, documentaries, and original content. With personalized recommendations, users can discover shows tailored to their preferences. The app supports offline downloads, multiple user profiles, parental controls, and cross‑platform viewing across phones, tablets, smart TVs, and web browsers. Netflix invests heavily in original programming—from drama to comedy, animation, and documentary—and uses data insights to curate and promote content to each user. Features include trailers previews, skip intros, continue watching, and dynamic streaming quality based on connection speed. Its algorithms adjust thumbnails and ordering to improve user engagement. In some regions, Netflix includes interactive shows and mobile‑only plans to adapt to network conditions. The company continuously expands its content catalog and licensing deals globally. For many users, Netflix has become a primary entertainment hub, offering seamless access, binge‑watching, curated selections, and a smooth user experience across devices.",
+    "size": 160,
+    "reviews": 8000000,
+    "ratingAvg": 4.3,
+    "downloads": 700000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1400000 },
+      { "name": "5 star", "count": 5260000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/zoomcar.png",
+    "title": "Zoomcar",
+    "companyName": "Zoomcar India Pvt Ltd",
+    "id": 18,
+    "description": "Zoomcar is a self‑drive car rental service that empowers users to locate, book, and drive vehicles at their own pace without requiring a driver. The app allows users to filter cars by model, price, fuel type, and availability, view pick‑up and drop‑off locations, and see fuel and insurance policies. Zoomcar supports hourly, daily, and long‑term rentals. It also shows detailed vehicle information, including images, features, and past user reviews. Users can cancel or extend rentals, and the app handles billing, deposits, and insurance coverage. Zoomcar encourages usage in urban areas, enabling users to drive spontaneously without car ownership burdens. The app includes maps for navigation, fuel level tracking, and reminders for drop‑offs. With support for booking history, loyalty programs, and promotions, Zoomcar aims to reduce friction and lower transportation costs. It’s especially useful for travelers, occasional drivers, and city dwellers who need flexible vehicle access without the responsibility of ownership. Through continuous expansion into more cities and integration with mobility networks, Zoomcar positions itself as a scalable alternative to taxis and leasing.",
+    "size": 85,
+    "reviews": 220000,
+    "ratingAvg": 4.0,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 30000 },
+      { "name": "4 star", "count": 80000 },
+      { "name": "5 star", "count": 3750000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/strava.png",
+    "title": "Strava",
+    "companyName": "Strava, Inc.",
+    "id": 19,
+    "description": "Strava is a fitness app built for athletes, cyclists, and runners to track, analyze, and share their workouts. Utilizing GPS and sensor data, Strava captures metrics like distance, pace, elevation, calories, and route paths. Users can join challenges, compare performance over time, and see leaderboards among friends or public segments. Strava integrates with wearables and fitness devices to synchronize data seamlessly. Its social layer allows users to follow others, comment on activities, share photos, and applaud achievements. Advanced users can use power curves, heart rate zones, and training logs to monitor progress. Strava also supports route planning and discovery—users can explore popular segments and download routes. Subscription members unlock deeper analytics, training plans, and safety features like “Beacon” (real-time location sharing). Strava’s blend of metrics, social engagement, and community makes fitness tracking more motivating and interactive. It appeals to both casual fitness enthusiasts and serious athletes, offering structure, competition, and connection in one platform.",
+    "size": 70,
+    "reviews": 1800000,
+    "ratingAvg": 4.5,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 350000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/zoomcar2.png",
+    "title": "Zoomcar EU",
+    "companyName": "Zoomcar Europe",
+    "id": 20,
+    "description": "Zoomcar EU extends the self‑drive car rental concept to European markets, enabling users to explore cities and rural areas at their own pace. The app allows filtering by vehicle class, features, fuel policy, and availability. Users can book by hour, day, or week and pick from numerous pick‑up/drop‑off points across cities. Zoomcar EU ensures clear pricing with insurance, fuel policy, and deposits visible at booking time. The app displays in‑depth vehicle info, user reviews, and photos to aid selection. Zoomcar EU supports cross‑border travel in select regions and integrates maps, fuel stations, and routing suggestions. Users can modify or cancel reservations, track bookings, and access customer support. Through rewards programs and partnerships with mobility services, Zoomcar EU seeks to compete with traditional car rental and peer‑to‑peer sharing. It’s ideal for travelers, explorers, and locals who prefer temporary access to vehicles without the burdens of ownership. Continuous expansion and integration with European transport networks help the service scale in urban and regional areas alike.",
+    "size": 88,
+    "reviews": 150000,
+    "ratingAvg": 3.9,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 10000 },
+      { "name": "2 star", "count": 9000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 50000 },
+      { "name": "5 star", "count": 10000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/downloaddots.png",
+    "title": "Dot Browser",
+    "companyName": "Dot Labs",
+    "id": 21,
+    "description": "Dot Browser is a lightweight, minimalistic web browser designed for speed, privacy, and simplicity. It eliminates clutter and distractions by focusing on core browsing—fast page loads, clean interface, and unobtrusive design. The app includes features such as built‑in ad blocking, tracker protection, reader mode, and custom search engine choices. Users can open tabs in a streamlined interface, save favorites, use private/incognito mode, and manage downloads efficiently. Dot Browser also supports offline reading by caching pages and a readability mode to convert articles into clean, distraction‑free text. The UI emphasizes gesture navigation, dark mode, and minimal controls, enhancing the reading experience. Because of its small footprint, Dot Browser performs well on lower‑end devices or in constrained network conditions. Users who prefer privacy and minimalism over bloat find it ideal. The simplicity doesn’t limit power—Dot Browser supports bookmarks, history, tab groups, and sync in later versions. By combining performance, privacy tools, and a clean interface, Dot Browser caters to users who want to browse without ads, trackers, or complexity.",
+    "size": 50,
+    "reviews": 90000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 15000 },
+      { "name": "5 star", "count": 4980000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/calm.png",
+    "title": "Calm",
+    "companyName": "Calm.com, Inc.",
+    "id": 22,
+    "description": "Calm is a mindfulness, meditation, and sleep app designed to help users reduce stress, enhance self‑care, and improve overall mental well‑being. It offers guided meditations, sleep stories narrated by celebrities, breathing exercises, relaxing scenes, soundscapes, and masterclasses. Users can choose meditations by theme (stress, focus, anxiety, gratitude) and duration (from 3 to 30+ minutes). The sleep stories help users drift into restful slumber, and relaxing background sounds support focus or relaxation. Calm includes progress tracking, streaks, daily reminders, and wellness check‑ins. The app encourages consistency with themed challenges and timers. Premium subscribers unlock full access to the content library, offline downloads, longer sessions, and exclusive courses. Calm is frequently used in professional and personal settings—employees practicing mindfulness, users managing insomnia, or individuals seeking daily calm in busy lives. Its polished visuals, high‑quality audio, and diverse content library make it accessible for beginners and enriching for experienced meditators. Calm’s mission is to bring mental wellness tools to everyone, helping users establish habits that support emotional balance, clarity, and better sleep.",
+    "size": 60,
+    "reviews": 1300000,
+    "ratingAvg": 4.7,
+    "downloads": 70000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 1200000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/headspace.png",
+    "title": "Headspace",
+    "companyName": "Headspace, Inc.",
+    "id": 23,
+    "description": "Headspace is a meditation, mindfulness, and mental health app designed to help users cultivate calm, focus, and emotional resilience. It provides guided meditations, sleep tools, focus sessions, and stress‑management techniques. Themes cover anxiety, sleep, relationships, performance, and mindset. Sessions are crafted by experts and include animations to explain concepts in accessible ways. Users can set daily meditation reminders, track streaks, and monitor progress. In addition to basic content, Headspace offers “Sleepcasts,” soundscapes, and stories to aid restful sleep. The app supports offline mode, allowing users to download sessions for use without internet. Headspace also collaborates with workplaces and wellness programs, offering APIs and content bundles for organizations. With a polished user interface, gamified progress, and structured pathways for beginners, it helps users build consistency. Over time, Headspace introduces new courses, themed packs, and partnerships, expanding into mental health, productivity, and well‑being beyond just meditation. Its emphasis on scientific foundation and mindfulness makes it a trusted platform for holistic wellness.",
+    "size": 65,
+    "reviews": 900000,
+    "ratingAvg": 4.6,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 850000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/waze.png",
+    "title": "Waze",
+    "companyName": "Google LLC",
+    "id": 24,
+    "description": "Waze is a community‑driven navigation app that harnesses crowd‑sourced data to provide live traffic updates, road hazard alerts, speed camera warnings, accidents, and alternate routes. Users actively report incidents like police presence, accidents, road closures, and more, making maps dynamic and up to date. Waze recalculates routes in real time based on traffic, saving users time in congested areas. It supports voice guidance, ETA updates, map customization, and community alerts. Waze also integrates with music streaming services, ride‑sharing, and calendar apps for seamless experience. Real time map editing by users ensures fresh geographic data, and the app gamifies contributions through ranking and feedback. Waze is particularly useful in dense city traffic, where alternate routing and live insights give it an edge. It blends navigation, community, and data to make travel smarter and safer for drivers looking to avoid delays, hazards, and inefficient routes. With its lively maps and participatory model, Waze offers a unique approach to mobility in shared environments.",
+    "size": 80,
+    "reviews": 4000000,
+    "ratingAvg": 4.5,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 5800000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/dominos.png",
+    "title": "Domino’s Pizza",
+    "companyName": "Domino’s Pizza, Inc.",
+    "id": 25,
+    "description": "The Domino’s Pizza app is a convenient and feature‑rich platform for ordering pizza and food items with ease. Users can browse the full menu, customize toppings, choose crust types, select sides, and preview the order before placing. Real‑time order tracking gives users updates from kitchen to delivery, showing status and estimated arrival. The app supports secure payments via credit/debit cards, wallets, and offers coupon codes, loyalty points, and deals. Users can save favorite orders for one‑tap reordering. Domino’s app often features promotions, combo deals, and limited‑time items. Push notifications and in-app messages alert users to discounts, order status, and new menu items. For multi‑store coverage, users can select locations, see store hours, delivery zones, and pickup options. The interface is optimized for speed and clarity, reducing friction in ordering. For frequent users, Domino’s stores order history, preferences, and favorites. With seamless ordering, tracking, and rewards, the app enhances the pizza delivery experience, making it quick, predictable, and engaging for users everywhere.",
+    "size": 105,
+    "reviews": 1100000,
+    "ratingAvg": 4.2,
+    "downloads": 80000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 950000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/youtube.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 26,
+    "description": "YouTube is the world’s largest video hosting and streaming platform, enabling users to watch, upload, comment, share, and monetize video content across a myriad of topics and formats. From music videos to tutorials, vlogs, documentary content, educational lectures, and live streams, YouTube supports creators and viewers alike. The platform offers personalized recommendations, trending sections, subscriptions, playlists, notifications, and robust search to help users discover content. Creators gain access to analytics, monetization options (ads, memberships, Super Chat), content management tools, and community engagement features. YouTube also supports offline downloads (in regions with permissions), background playback (for premium members), and cross‑device synchronization. With technologies like adaptive bitrate streaming, 4K/8K support, and HDR, it delivers high‑quality playback optimized to network conditions. YouTube Live and Shorts expand the live and short‑form video dimensions. The platform also enforces content policies, copyright management, and community standards. Its massive scale, array of content types, creator ecosystem, and accessibility make YouTube a central pillar of digital media, education, entertainment, and expression globally.",
+    "size": 150,
+    "reviews": 25000000,
+    "ratingAvg": 4.6,
+    "downloads": 3000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 23000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/pandora.png",
+    "title": "Pandora Music",
+    "companyName": "Sirius XM Holdings Inc.",
+    "id": 27,
+    "description": "Pandora is a music streaming and personalized radio service that enables listeners to create stations based on songs, artists, or genres. Users can tune into stations and provide feedback (thumbs up/down), which refines future song selection. Pandora offers both ad‑supported free tiers and subscription plans that unlock offline listening, higher audio quality, and no ads. The app recommends similar tracks, curates playlists, and responds to listener preferences through machine learning. It also features podcasts, curated playlists, and mood/genre stations. Pandora’s interface enables browsing by mood, genre, or keyword, and supports on‑demand playback where available. Users can save favorite songs, create custom playlists, and follow artists. Integration with car systems, smart speakers, and mobile devices gives seamless listening across environments. Pandora’s strength lies in passive discovery: you set a station seed, and the algorithm curates a continuous stream of relevant tracks tailored to your tastes. With a long history in digital radio, Pandora continues evolving through new features like personalized playlists, podcasts, and deeper listener analytics to cater to diverse listening preferences.",
+    "size": 85,
+    "reviews": 800000,
+    "ratingAvg": 4.1,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 25000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 700000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/flipboard.png",
+    "title": "Flipboard",
+    "companyName": "Flipboard Inc.",
+    "id": 28,
+    "description": "Flipboard is a news aggregation and content curation app that offers a magazine‑style layout for browsing articles, stories, and multimedia from trusted publishers and community sources. Users select their topics of interest—such as technology, politics, art, health—and Flipboard curates a personalized feed. The interface presents articles in visually rich “flips,” combining headlines, images, and summaries for scrolling. Users can follow publishers, create magazines (collections of articles), save stories to read later, and share content with others. Flipboard supports multimedia content like videos and photo galleries. It includes local news, global coverage, and content from both large media brands and niche blogs. The app features push notifications for breaking news, trending stories, and curated highlights. With a clean, visually engaging design, Flipboard transforms news consumption into a browsing experience rather than a list of headlines. Over time, Flipboard adds interactive elements, personalized recommendations, and improved curation to reduce information overload. It appeals to readers who want both breadth and depth in content, combining editorial quality and algorithmic discovery.",
+    "size": 75,
+    "reviews": 600000,
+    "ratingAvg": 4.3,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 125000 },
+      { "name": "5 star", "count": 400000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/zoomclone.png",
+    "title": "Virtual Meet",
+    "companyName": "RemoteConnect Inc.",
+    "id": 29,
+    "description": "Virtual Meet is a video conferencing and collaboration app aimed at remote teams, educators, and communities. It offers high‑definition video calls, screen sharing, chat, breakout rooms, and meeting scheduling. Virtual Meet supports cross‑platform compatibility on mobile, desktop, and web. It also supports virtual backgrounds, meeting recording, participant hand raising, and moderator controls. The app integrates with calendar apps (Google Calendar, Outlook) to allow one‑click meeting joins. To enhance engagement, Virtual Meet offers polling, Q&A, whiteboarding, and chat reactions. It also supports encryption and role‑based permissions to control access and moderation. The UI is optimized for large meetings, small groups, and one‑to‑one calls, adapting layout accordingly. Performance optimizations help maintain stability in varying network connections. Virtual Meet also offers analytics on participation, attendance, and meeting durations. Whether used in education, remote work, or communities, Virtual Meet combines essential features with usability and security to support seamless online interactions and collaboration across distances.",
+    "size": 145,
+    "reviews": 350000,
+    "ratingAvg": 4.4,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 12000 },
+      { "name": "3 star", "count": 25000 },
+      { "name": "4 star", "count": 60000 },
+      { "name": "5 star", "count": 14750000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/skype.png",
+    "title": "Skype",
+    "companyName": "Microsoft Corporation",
+    "id": 30,
+    "description": "Skype is a longstanding communications app offering voice calls, video calls, messaging, and file sharing across devices. It supports one‑to‑one or group video calls, screen sharing, and real‑time chat. Skype connects users globally through Skype IDs or phone numbers, bridging users across platforms. The app also supports voicemail, call forwarding, and SMS (in supported regions). With integration to Microsoft teams and services, Skype is part of a broader productivity ecosystem. Users can host virtual meetings, webinars, and interviews. Skype’s interface supports chat threads, reactions, media sharing, and message search. It offers varying video layouts depending on participants and optimizes performance for different connection speeds. Skype for Business (now evolved into Microsoft Teams) was once widely used in corporate settings; Skype’s consumer version remains popular for personal and small group communication. Its mature feature set, brand recognition, global reach, and continuous updates in video codecs, usability, and mobile optimization keep it relevant in a crowded field of communication tools.",
+    "size": 130,
+    "reviews": 4000000,
+    "ratingAvg": 4.2,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 3750000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/trello.png",
+    "title": "Trello",
+    "companyName": "Atlassian",
+    "id": 31,
+    "description": "Trello is a visual project management and collaboration tool structured around Kanban boards, lists, and cards. Each project can be represented as a board; within it, lists categorize task stages (e.g., To Do, Doing, Done), and cards represent individual tasks or items. Card content can include checklists, attachments, comments, due dates, labels, and custom fields. Teams can assign members, comment, and move cards across lists to reflect progress. Trello supports drag‑and‑drop interactions, activity logs, and notifications to keep team members updated. Automation is available via “Butler” to add rules, schedule actions, and reduce repetitive tasks. Trello integrates with many tools like Slack, Google Drive, Jira, GitHub, and more, bringing external data into boards. The app also offers templates for workflows like agile, content calendars, marketing, and more. Trello’s simplicity and visual approach make it ideal for personal use, small teams, or large organizations. Whether managing sprints, editorial calendars, or life tasks, Trello accommodates varied workflows. Its flexibility, extensibility, and intuitive interface have made it a favorite in the productivity space.",
+    "size": 95,
+    "reviews": 2200000,
+    "ratingAvg": 4.5,
+    "downloads": 250000000,
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 2000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/zoomfit.png",
+    "title": "FitTrack",
+    "companyName": "Healthify Inc.",
+    "id": 32,
+    "description": "FitTrack is a health, wellness, and fitness tracking app designed to help users monitor their daily activity, sleep, nutrition, and vitals. Through integration with wearables and smartphone sensors, FitTrack collects step counts, heart rate, sleep cycles, calories burned, hydration, and workout data. Users can log meals, track macro and micronutrients, set weight goals, chart progress, and receive personalized insights. The app offers guided workouts, challenges, habit tracking, goal reminders, and motivational content. FitTrack’s analytics present trends, comparisons, and inferences—such as when sleep quality dropped or when hydration was low. It also syncs with external apps and devices like Strava, Google Fit, Apple Health, and smart scales. The social and community component allows users to join groups, share progress, and compete in fitness leagues. Premium features may include advanced metrics, coaching plans, and custom workouts. FitTrack’s interface emphasizes clarity, charts, forecasts, and contextual suggestions to support behavior change. It’s ideal for health enthusiasts, beginners, or anyone wanting to centralize their fitness and wellness journey in one app.",
+    "size": 70,
+    "reviews": 1000000,
+    "ratingAvg": 4.3,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 4825000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/zoomstudy.png",
+    "title": "StudyBuddy",
+    "companyName": "LearnTech Co.",
+    "id": 33,
+    "description": "StudyBuddy is an educational productivity app designed to help students and lifelong learners plan, study, and retain knowledge more effectively. The app provides tools such as flashcards, quizzes, spaced repetition algorithms, note organization, topic modules, reminders, progress tracking, and peer collaboration. Users can create custom decks, import study materials, and schedule review sessions based on forgetting curve algorithms. StudyBuddy supports multi‑subject planning, collaborative decks, and shared quizzes, allowing peers to contribute to learning content. Analytics give insight into strengths, weaknesses, and retention trends. Users can set goals, review history, and get nudges for consistent study habits. The interface is optimized for both short sessions and deep study blocks, with breakdowns of remaining content and estimated completion times. StudyBuddy also supports offline use, syncing when connectivity returns. For educators and groups, it offers class sharing and assignment features. By combining technology, pedagogy, and community, StudyBuddy empowers learners to structure their studies, maximize retention, and collaborate effectively over time.",
+    "size": 80,
+    "reviews": 300000,
+    "ratingAvg": 4.6,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 9950000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/wellness.png",
+    "title": "Wellness Guide",
+    "companyName": "Mindful Creations",
+    "id": 34,
+    "description": "Wellness Guide is a holistic mental health and self‑care app that combines guided meditations, journaling, breathing exercises, daily wellness prompts, gratitude practices, mood tracking, and mindful challenges. Users begin with daily check‑ins, logging stress levels, emotions, and focus areas. Based on inputs, the app recommends tailored content—breathing exercises, short meditations, stress relief audio, or reflective prompts. The journal feature encourages users to write, reflect, and track mood patterns over weeks. Wellness Guide includes gratitude journaling, intention setting, and micro‑challenges (e.g. 5‑minute walks, mindful eating). For deeper support, the app offers themed modules (anxiety, sleep, productivity, self‑esteem) with multi‑session content and audio. Users can download content offline, set reminders, and view progress charts. The app fosters consistency through streaks, motivational nudges, and unlocking new content. Wellness Guide appeals to users seeking mental balance, self‑insight, and tools to manage daily stress. It integrates with health apps to track sleep and heart rate metrics, enriching context. With its user‑centered approach and content breadth, Wellness Guide offers more than meditation—it supports ongoing emotional wellness, reflection, and personal growth in a guided, interactive, and compassionate environment.",
+    "size": 55,
+    "reviews": 200000,
+    "ratingAvg": 4.7,
+    "downloads": 8000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 5000 },
+      { "name": "4 star", "count": 25000 },
+      { "name": "5 star", "count": 7950000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/kindle.png",
+    "title": "Kindle",
+    "companyName": "Amazon Mobile LLC",
+    "id": 35,
+    "description": "Kindle is a digital reading app offering access to millions of e‑books, newspapers, magazines, and documents. Users can browse, purchase, and download content from the Amazon store or import their own files (PDF, MOBI). The app supports adjustable fonts, text sizes, margins, line spacing, and theme modes (light, sepia, dark) to customize reading comfort. Additional features include X‑Ray for exploring characters and topics, in‑text definitions, translations, highlights, and notes. Kindle syncs across devices so reading positions, bookmarks, and notes carry over. The app also supports collection management, library organization, and offline reading. Kindle’s interface provides page turn animations, text reflows, and seamless orientation changes. For audiobook lovers, Kindle integrates with Audible on supported apps. Readers can enable reading statistics, time remaining in a chapter, and word lookup. Kindle is used by casual readers, students, and book lovers who want a portable, versatile library. Its expansive content catalog, readability options, and sync across devices make it a go‑to platform for digital readers everywhere.",
+    "size": 120,
+    "reviews": 2500000,
+    "ratingAvg": 4.4,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 4100000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/zoomcam.png",
+    "title": "Camera Pro",
+    "companyName": "LensWorks Ltd.",
+    "id": 36,
+    "description": "Camera Pro is a photography application built for enthusiasts and mobile creators. It offers full manual control—adjusting ISO, shutter speed, white balance, focus, exposure compensation—and supports RAW image capture for maximum post‑processing flexibility. The app also features a live histogram, grid overlays, manual focus peaking, and exposure locking. Users can apply filters, color profiles, tilt correction, and lens corrections in real time. After capture, built‑in editing tools enable cropping, tone curves, selective adjustments, and batch processing. Camera Pro supports burst mode, long exposure, timelapse, and interval shooting. It also integrates with HDR and panorama stitching. The interface is optimized for touch controls with sliders and gesture controls. Export options include high quality JPEG, RAW (DNG), and sharing directly to social or cloud. For creators, it offers presets, custom profiles, and import/export of settings. With its robust feature set, Camera Pro bridges the gap between smartphone convenience and professional control, empowering users to capture, edit, and share polished images from their device.",
+    "size": 140,
+    "reviews": 450000,
+    "ratingAvg": 4.5,
+    "downloads": 20000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 19850000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/goodreads.png",
+    "title": "Goodreads",
+    "companyName": "Goodreads Inc.",
+    "id": 37,
+    "description": "Goodreads is a social reading platform for book lovers to track what they’re reading, what they want to read, and what they’ve finished. Users can rate books, write reviews, follow authors, and connect with reading communities. The app supports creating reading lists, join reading challenges, review history, and see quotes or highlights from books. Goodreads recommends new titles based on reading history, user preferences, and social interactions. For each book, users can view summaries, author bios, ratings, reviews, similar books, and curated lists. The app allows importing books from other platforms or scanning barcodes. It supports social interaction—commenting, friend recommendations, and group reading discussions. Goodreads also integrates with e‑book platforms (like Kindle) and displays reading activity. For avid readers, the app is a place to organize, discover, and discuss books, track reading goals, and connect with literary communities. With its engagement around content, social features, and recommendations, Goodreads fosters a richer reading experience.",
+    "size": 85,
+    "reviews": 1200000,
+    "ratingAvg": 4.5,
+    "downloads": 50000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 100000 },
+      { "name": "5 star", "count": 1175000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/shazam.png",
+    "title": "Shazam",
+    "companyName": "Apple Inc.",
+    "id": 38,
+    "description": "Shazam is a music recognition and discovery app that listens to ambient audio and identifies songs in seconds. Users simply tap the Shazam button and the app matches the snippet to a song in its database, then delivers artist name, track title, album, lyrics, and related artist links. It also keeps a history of songs identified and integrates with streaming services (Spotify, Apple Music) to let users play or save identified tracks. Shazam supports offline mode—when there’s no internet, it caches the snippet and identifies the track once connected again. It also shows charts, top songs in regions, augmented reality visuals, and lyrics in sync with playback. For users, it’s a seamless way to discover music in the moment—on radio, in a cafe, store, or social setting—and immediately capture details. Shazam’s instant recognition, offline support, and integration with streaming make it a favorite tool for music lovers to identify, explore, and engage with the songs they hear.",
+    "size": 50,
+    "reviews": 800000,
+    "ratingAvg": 4.6,
+    "downloads": 200000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 1700000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/venmo.png",
+    "title": "Venmo",
+    "companyName": "PayPal, Inc.",
+    "id": 39,
+    "description": "Venmo is a mobile payment and peer‑to‑peer transfer app that allows users to send and receive money, split bills, pay merchants, and share payment activity socially. Transactions can be sent instantly or scheduled; users link bank accounts, credit cards, or debit cards as funding sources. Beyond payments, the app features social posts—users can attach emojis, notes, and text to payments (with privacy controls). Venmo supports merchant payments via QR codes and in‑app integrations. It also offers a digital wallet and debit card for purchases. Security features include multi‑factor authentication, PIN locking, encryption, fraud monitoring, and customer support. Venmo’s transaction feed can be toggled private or shared; users can like or comment on public payments. For recurrent expenses (rent, utilities), users can set recurring transfers. Venmo also supports splitting bills among groups and automatically computing shares. Its blend of financial utility and social interaction has made it popular among younger users, students, and small groups for quick, casual money transfers with a social twist.",
+    "size": 80,
+    "reviews": 900000,
+    "ratingAvg": 4.2,
+    "downloads": 150000000,
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/zoomnews.png",
+    "title": "NewsFlash",
+    "companyName": "DailyPulse Media",
+    "id": 40,
+    "description": "NewsFlash is a mobile news and journalism app built to deliver timely, curated stories and personalized content feeds to users. Upon setup, users select topics and regions of interest—politics, tech, business, entertainment, science, local news—and the app curates a stream of headlines, full articles, and multimedia content accordingly. NewsFlash fetches content from reputable publishers, independent media, and regional outlets, supporting push alerts for breaking news. Users can save articles offline, highlight quotes, and share to social networks. A clean reading mode removes distractions like ads or sidebars. The app supports commenting, reactions, and subscription to featured authors. For premium users, NewsFlash offers exclusive investigative pieces, ad‑free reading, early access content, and deeper analytics of reading habits. The algorithm blends editorial selection and personalization to avoid echo chambers. With a focus on speed, reliability, and quality sourcing, NewsFlash aims to be a trusted destination for staying informed. Whether monitoring global affairs or local events, users get access to a continually refreshed, customizable news experience built for mobile consumption and meaningful engagement.",
+    "size": 70,
+    "reviews": 300000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 4000 },
+      { "name": "3 star", "count": 15000 },
+      { "name": "4 star", "count": 40000 },
+      { "name": "5 star", "count": 9940000 }
+    ]
+  }
+]

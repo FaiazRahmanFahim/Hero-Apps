@@ -1,0 +1,146 @@
+[
+  {
+    "image": "https://example.com/images/notion.png",
+    "title": "Notion",
+    "companyName": "Notion Labs, Inc.",
+    "id": 1,
+    "description": "Notion is a versatile, all-in-one productivity platform that empowers users to write, plan, organize, and collaborate in a fully customizable workspace. Whether you're managing a personal to-do list or coordinating a large-scale project with a team, Notion provides the flexibility to adapt to your workflow. It combines features like note-taking, task management, databases, wikis, calendars, and kanban boards into a seamless interface. With support for markdown, drag-and-drop content blocks, and real-time collaboration, users can structure their data and content precisely the way they want. Notion is widely used by individuals, students, and businesses to create knowledge bases, track habits, plan goals, and centralize information. Integration with tools like Slack, GitHub, and Google Drive further enhances its utility. Its clean, minimal design and powerful templating system make it accessible for beginners yet robust enough for power users. Overall, Notion is a highly customizable tool that adapts to any organizational need.",
+    "size": 120,
+    "reviews": 840000,
+    "ratingAvg": 4.6,
+    "downloads": 25000000,
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 570000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/candycrush.png",
+    "title": "Candy Crush Saga",
+    "companyName": "King",
+    "id": 2,
+    "description": "Candy Crush Saga is a classic match-three puzzle game that has captivated millions with its colorful visuals, addictive gameplay, and ever-expanding levels. Players swap and match candies to progress through hundreds of levels, each offering unique challenges, obstacles, and goals. The game’s appeal lies in its satisfying mechanics, variety of boosters, and rewarding animations. Whether you're matching striped candies, smashing jelly, or collecting ingredients, Candy Crush offers moments of joy and frustration in equal measure. The game regularly introduces new levels and limited-time events to keep the experience fresh and engaging. Social integration allows players to connect with friends, share lives, and compete on leaderboards. It's accessible to casual players but challenging enough to keep puzzle lovers invested for the long haul. With vibrant sound effects and a charming design, Candy Crush has become a staple in mobile gaming history and continues to dominate app charts worldwide with billions of downloads.",
+    "size": 85,
+    "reviews": 11000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 7000000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/duolingo.png",
+    "title": "Duolingo",
+    "companyName": "Duolingo Inc.",
+    "id": 3,
+    "description": "Duolingo is the world’s most popular language learning app, offering a fun and engaging way to learn over 30 languages including Spanish, French, Japanese, and more. Designed for all ages, Duolingo uses gamified lessons to teach reading, writing, speaking, and listening skills. Its bite-sized modules, friendly mascot (Duo the owl), and daily streaks motivate learners to stay consistent. Each lesson adapts to the user’s pace and reinforces vocabulary through repetition and review. Users earn XP, complete challenges, and unlock rewards, which keeps the experience entertaining while building real language proficiency. Duolingo also offers a premium subscription (Super Duolingo) with offline access, progress tracking, and an ad-free experience. Whether you're a beginner starting a new language or someone brushing up before a trip, Duolingo offers accessible, free education that fits into any schedule. It's widely used in classrooms, workplaces, and by individuals worldwide to make language learning approachable and effective.",
+    "size": 95,
+    "reviews": 4200000,
+    "ratingAvg": 4.7,
+    "downloads": 300000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2850000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/zoom.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 4,
+    "description": "Zoom is a leading video conferencing platform used by millions globally for virtual meetings, webinars, and remote collaboration. It offers high-definition video and audio, screen sharing, and real-time messaging features, making it a go-to choice for remote work, online education, and virtual events. Zoom supports breakout rooms for group discussions, waiting rooms for moderation, and webinar tools for hosting large-scale events. Its cross-platform support ensures seamless use on desktops, tablets, and smartphones. The app also includes background filters, whiteboarding, recording, and integration with calendars and productivity tools like Google Workspace and Microsoft Teams. During the COVID-19 pandemic, Zoom became an essential tool for staying connected, and its popularity continues to grow as remote work and hybrid meetings remain the norm. Its intuitive interface and reliable performance make it ideal for both casual and professional users, whether hosting a family call or a global corporate meeting. Zoom redefines how people connect in a digital age.",
+    "size": 140,
+    "reviews": 1600000,
+    "ratingAvg": 4.3,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 600000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/myfitnesspal.png",
+    "title": "MyFitnessPal",
+    "companyName": "Under Armour",
+    "id": 5,
+    "description": "MyFitnessPal is a comprehensive health and nutrition tracking app designed to help users reach their fitness goals by monitoring diet, exercise, and overall wellness. With an extensive food database of over 11 million items, users can log meals, scan barcodes, and track macronutrients with ease. The app also integrates with fitness trackers and wearables to automatically sync activity and calorie expenditure. MyFitnessPal provides detailed analytics, meal insights, and goal-setting tools to encourage healthy habits and lifestyle changes. Whether your goal is weight loss, muscle gain, or maintenance, the app tailors your experience based on your inputs and goals. Users can join challenges, connect with a supportive community, and access workout plans. The premium version unlocks additional features like food analysis and personalized coaching. With its user-friendly interface and evidence-based approach, MyFitnessPal has become a trusted companion for millions in their journey toward better health and sustainable fitness habits.",
+    "size": 75,
+    "reviews": 1900000,
+    "ratingAvg": 4.5,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 120000 },
+      { "name": "2 star", "count": 140000 },
+      { "name": "3 star", "count": 220000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 900000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/asphalt9.png",
+    "title": "Asphalt 9: Legends",
+    "companyName": "Gameloft",
+    "id": 6,
+    "description": "Asphalt 9: Legends is a high-octane racing game that delivers console-quality graphics, real licensed hypercars, and explosive action to mobile devices. Players can race on stunning tracks across global locations like Tokyo, Cairo, and the Himalayas. The game features a wide range of exotic cars from manufacturers such as Ferrari, Lamborghini, and Bugatti, all customizable with upgrades and cosmetic changes. Its intuitive TouchDrive controls make it accessible to new players while offering manual controls for racing purists. Asphalt 9 offers both solo campaign mode and real-time multiplayer, allowing racers to compete in leagues and tournaments. The game constantly evolves with new seasons, events, and car releases. Its immersive visual effects, roaring engines, and cinematic gameplay make every race thrilling. Whether you're drifting around corners, launching off ramps, or smashing through barriers, Asphalt 9 offers one of the most exhilarating mobile racing experiences available. It’s a flagship title in mobile gaming and eSports.",
+    "size": 200,
+    "reviews": 2500000,
+    "ratingAvg": 4.2,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 250000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 850000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd.",
+    "id": 7,
+    "description": "Spotify is a global audio streaming platform that offers instant access to millions of songs, albums, playlists, and podcasts. With a sleek and intuitive interface, users can discover new music, follow their favorite artists, and curate personalized playlists. Spotify's algorithm-driven recommendations, such as Discover Weekly and Release Radar, help listeners find content tailored to their taste. Users can listen for free with ads or subscribe to Spotify Premium for an ad-free experience, offline downloads, and enhanced sound quality. The platform supports cross-device syncing, allowing seamless listening from smartphones, computers, smart TVs, and speakers. In addition to music, Spotify hosts a vast library of podcasts, including exclusive originals. Its social features allow sharing playlists and tracking what friends are listening to. With continuous innovation in audio experiences, from AI DJ to collaborative playlists, Spotify remains at the forefront of digital streaming. It's the go-to platform for casual listeners and audiophiles alike.",
+    "size": 110,
+    "reviews": 9000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 5200000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/adobeexpress.png",
+    "title": "Adobe Express",
+    "companyName": "Adobe",
+    "id": 8,
+    "description": "Adobe Express is a powerful yet easy-to-use creative design app tailored for users of all skill levels. It allows individuals and businesses to create eye-catching graphics, social media posts, flyers, logos, videos, and more. With a vast library of templates, stock images, fonts, and design elements, Adobe Express helps users craft professional-looking content without needing extensive design knowledge. The app includes drag-and-drop functionality, AI-powered tools, and one-click background removal. Adobe Express also supports brand kits for consistency, content scheduling for social media, and collaborative editing. Integration with other Adobe tools such as Photoshop and Illustrator further extends its capabilities. Whether you're a small business owner promoting your brand, a content creator looking for stunning visuals, or a student preparing a project, Adobe Express streamlines the creative process. It’s optimized for mobile and web, making it easy to design on the go. Adobe Express democratizes design by putting creative power into everyone’s hands.",
+    "size": 150,
+    "reviews": 670000,
+    "ratingAvg": 4.6,
+    "downloads": 15000000,
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 60000 },
+      { "name": "4 star", "count": 150000 },
+      { "name": "5 star", "count": 390000 }
+    ]
+  }
+]

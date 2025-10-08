@@ -19,7 +19,7 @@ const HomeApp = ({ data }) => {
         <div className="flex justify-between items-center text-base font-semibold">
           <h2 className="badge text-green-500 bg-gray-200 border-none flex items-center">
             <Download size={16} />
-            {(data.downloads / 1000000).toFixed(1)} M
+            {(data.downloads / 1000000).toFixed(1)}M
           </h2>
           <div className="badge flex items-center text-orange-500 bg-orange-200 border-none">
             <Star size={16} />

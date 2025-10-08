@@ -13,8 +13,8 @@ const AllApps = () => {
         <p className="text-base md:text-xl text-gray-400 text-center">
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
-        <div className="flex justify-between items-center px-20">
-          <h3 className="text-2xl font-semibold">
+        <div className="flex justify-between items-center gap-5 flex-col md:flex-row px-20">
+          <h3 className="flex-1 text-lg md:text-2xl font-semibold">
             <span>({allAppsData.length})</span> Apps Found
           </h3>
           <label className="input bg-gray-100 border-2 border-gray-200">

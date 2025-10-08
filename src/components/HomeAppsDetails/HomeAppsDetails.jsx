@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import downloadIcon from "../../assets/icon-downloads.png";
 import startIcon from "../../assets/icon-ratings.png";
 import likedIcon from "../../assets/icon-review.png";
+import { getDataFromLS, checkDataFromLS } from "../../utility/AddToLS";
 import {
   ResponsiveContainer,
   BarChart,
@@ -21,8 +22,8 @@ const HomeAppsDetails = () => {
   //console.log(AppsData);
   const findApp = AppsData.find((data) => data.id === AppID);
   //console.log(findApp);
-  const ratingsData = findApp.ratings;
 
+  const ratingsData = findApp.ratings;
   const renderBarChart = (
     <ResponsiveContainer width="100%" height={300}>
       <BarChart width={300} height={300} data={ratingsData} layout="vertical">
@@ -42,6 +43,22 @@ const HomeAppsDetails = () => {
       </BarChart>
     </ResponsiveContainer>
   );
+
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  useEffect(() => {
+    const checkAppIsInLS = checkDataFromLS();
+    const convertID = checkAppIsInLS.map((id) => parseInt(id));
+    if (convertID.includes(findApp.id)) {
+      setIsInstalled(true);
+    }
+  }, [findApp.id]);
+
+  const handleInstall = (ID) => {
+    getDataFromLS(ID);
+    setIsInstalled(true);
+  };
+
   return (
     <div className="mx-auto my-10  md:px-10 xl:px-20 space-y-5">
       <div className="flex flex-col lg:flex-row justify-between items-center gap-10">
@@ -89,8 +106,14 @@ const HomeAppsDetails = () => {
             </div>
           </div>
           {/* Install Button */}
-          <button className="btn bg-[#00d390] border-none mt-3 w-full sm:w-auto">
-            Install Now ({findApp.size} MB)
+          <button
+            onClick={() => handleInstall(findApp.id)}
+            disabled={isInstalled}
+            className="btn bg-[#00d390] border-none mt-3 w-full sm:w-auto"
+          >
+            {isInstalled === true
+              ? "Installed"
+              : `Install Now (${findApp.size} MB)`}
           </button>
         </div>
       </div>

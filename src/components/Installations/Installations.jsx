@@ -1,9 +1,52 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { useLoaderData } from "react-router";
+import { checkDataFromLS } from "../../utility/AddToLS";
+import InstalledApp from "./InstalledApp/InstalledApp";
 
 const Installations = () => {
+  const [installedApp, setInstalledApp] = useState([]);
+  const getData = useLoaderData();
+  //console.log(getData);
+
+  useEffect(() => {
+    const checkAppIsInLS = checkDataFromLS();
+    const convertID = checkAppIsInLS.map((id) => parseInt(id));
+    const filterData = getData.filter((data) => convertID.includes(data.id));
+    setInstalledApp(filterData);
+  }, [getData]);
+
   return (
     <div>
-      <h1>I am Installations Page</h1>
+      <div className="my-10 space-y-5">
+        <h2 className="text-4xl md:text-5xl font-bold text-center">
+          Your Installed Apps
+        </h2>
+        <p className="text-base md:text-xl text-gray-400 text-center">
+          Explore All Trending Apps on the Market developed by us
+        </p>
+        <div className="flex justify-between items-center gap-5 flex-col md:flex-row px-20">
+          <h3 className="flex-1 text-lg md:text-2xl font-semibold">
+            <span>({installedApp.length})</span> Apps Found
+          </h3>
+          <fieldset className="fieldset">
+            <select
+              defaultValue="Pick a browser"
+              className="select bg-gray-100 border-2 border-gray-200"
+            >
+              <option disabled={false}>Sort By Size</option>
+              <option>10MB-50MB</option>
+              <option>51MB-100MB</option>
+              <option>101MB-200MB</option>
+              <option>201MB-300MB</option>
+            </select>
+          </fieldset>
+        </div>
+        <div className="grid grid-flow-row md:px-10 xl:px-20 gap-5">
+          {installedApp.map((D) => (
+            <InstalledApp key={D.id} D={D}></InstalledApp>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };

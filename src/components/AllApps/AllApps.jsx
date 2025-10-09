@@ -7,6 +7,7 @@ const AllApps = () => {
   const navigate = useNavigate();
   const [searchApp, setSearchApp] = useState("");
   const [filteredApps, setFilteredApps] = useState([]);
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
     setFilteredApps(allAppsData);
@@ -14,14 +15,28 @@ const AllApps = () => {
 
   const handleSearch = (text) => {
     setSearchApp(text);
-    const filterApp = allAppsData.filter((app) =>
-      app.title.toLowerCase().includes(text.toLowerCase())
-    );
-    if (filterApp.length === 0) {
-      navigate("/Apps/notFound");
-    } else {
-      setFilteredApps(filterApp);
-    }
+    setLoading(true);
+    // const filterApp = allAppsData.filter((app) =>
+    //   app.title.toLowerCase().includes(text.toLowerCase())
+    // );
+    // if (filterApp.length === 0) {
+    //   navigate("/Apps/notFound");
+    // } else {
+    //   setFilteredApps(filterApp);
+    // }
+    setTimeout(() => {
+      const filterApp = allAppsData.filter((app) =>
+        app.title.toLowerCase().includes(text.toLowerCase())
+      );
+
+      if (filterApp.length === 0) {
+        navigate("/Apps/notFound");
+      } else {
+        setFilteredApps(filterApp);
+      }
+
+      setLoading(false);
+    }, 500);
   };
 
   return (
@@ -59,15 +74,27 @@ const AllApps = () => {
               onChange={(Event) => handleSearch(Event.target.value)}
               type="search"
               required
-              placeholder="Search"
+              placeholder="Search Apps"
             />
           </label>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:px-10 xl:px-20 gap-5">
+        {/* <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:px-10 xl:px-20 gap-5">
           {filteredApps.map((AppData) => (
             <AllApp key={AppData.id} AppData={AppData}></AllApp>
           ))}
-        </div>
+        </div> */}
+        {/* App Grid OR Loader */}
+        {loading ? (
+          <div className="text-center py-10">
+            <span className="loading loading-infinity loading-xl text-primary"></span>
+          </div>
+        ) : (
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:px-10 xl:px-20 gap-5">
+            {filteredApps.map((AppData) => (
+              <AllApp key={AppData.id} AppData={AppData} />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

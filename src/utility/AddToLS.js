@@ -1,3 +1,5 @@
+import { toast } from "react-toastify";
+
 const checkDataFromLS = () => {
   const getData = localStorage.getItem("appsList");
 
@@ -13,11 +15,13 @@ const getDataFromLS = (ID) => {
   const AppsDataFromLS = checkDataFromLS();
 
   if (AppsDataFromLS.includes(ID)) {
-    alert(`This App Already Installed!`);
+    toast.error(`This App Already Installed!`);
+    return false;
   } else {
     AppsDataFromLS.push(ID);
     const convertDataToStringify = JSON.stringify(AppsDataFromLS);
     localStorage.setItem("appsList", convertDataToStringify);
+    return true;
   }
 };
 

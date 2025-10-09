@@ -36,9 +36,11 @@ const AllAppsDetails = () => {
   }, [findApp.id]);
 
   const handleInstall = (ID) => {
-    getDataFromLS(ID);
-    setIsInstalled(true);
-    toast.success(`${findApp.title} installed successfully.`);
+    const isSuccessful = getDataFromLS(ID);
+    if (isSuccessful) {
+      setIsInstalled(true);
+      toast.success(`${findApp.title} Installed successfully.`);
+    }
   };
 
   const renderBarChart = (
@@ -63,9 +65,9 @@ const AllAppsDetails = () => {
   return (
     <div className="mx-auto my-10  md:px-10 xl:px-20 space-y-5">
       <div className="flex flex-col lg:flex-row justify-between items-center gap-10">
-        <div className="flex p-10 bg-white justify-center items-center rounded-xl shadow">
+        <div className="flex p-8 bg-white justify-center items-center rounded-xl shadow">
           <img
-            className="w-60 h-60 contain-content"
+            className="w-64 h-64 rounded-xl contain-content"
             src={findApp.image}
             alt=""
           />
@@ -109,7 +111,7 @@ const AllAppsDetails = () => {
           {/* Install Button */}
           <button
             onClick={() => handleInstall(findApp.id)}
-            disabled={isInstalled}
+            //disabled={isInstalled}
             className="btn bg-[#00d390] border-none mt-3 w-full sm:w-auto"
           >
             {isInstalled === true

@@ -9,15 +9,7 @@ const Home = () => {
   return (
     <>
       <Banner></Banner>
-      <Suspense
-        fallback={
-          <div className="text-center">
-            <span className="loading loading-infinity loading-xl"></span>
-          </div>
-        }
-      >
-        <HomeApps homeData={homeData}></HomeApps>
-      </Suspense>
+      <HomeApps homeData={homeData}></HomeApps>
     </>
   );
 };

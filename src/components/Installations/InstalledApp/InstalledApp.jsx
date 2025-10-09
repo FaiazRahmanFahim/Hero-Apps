@@ -1,11 +1,13 @@
 import React from "react";
 import { Download, Star } from "lucide-react";
+import { toast } from "react-toastify";
 
 const InstalledApp = ({ D, handleRemove }) => {
   //console.log(D);
 
   const handleRemoveApp = (ID) => {
     handleRemove(ID);
+    toast.success(`${D.title} uninstalled successfully.`);
   };
 
   return (

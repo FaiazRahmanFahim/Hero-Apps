@@ -13,6 +13,7 @@ import {
   Tooltip,
   CartesianGrid,
 } from "recharts";
+import { toast } from "react-toastify";
 
 const HomeAppsDetails = () => {
   const { ID } = useParams();
@@ -57,6 +58,7 @@ const HomeAppsDetails = () => {
   const handleInstall = (ID) => {
     getDataFromLS(ID);
     setIsInstalled(true);
+    toast.success(`${findApp.title} installed successfully.`);
   };
 
   return (
@@ -108,7 +110,7 @@ const HomeAppsDetails = () => {
           {/* Install Button */}
           <button
             onClick={() => handleInstall(findApp.id)}
-            disabled={isInstalled}
+            // disabled={isInstalled}
             className="btn bg-[#00d390] border-none mt-3 w-full sm:w-auto"
           >
             {isInstalled === true

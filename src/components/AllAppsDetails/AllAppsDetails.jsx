@@ -13,6 +13,7 @@ import {
   Tooltip,
   CartesianGrid,
 } from "recharts";
+import { toast } from "react-toastify";
 
 const AllAppsDetails = () => {
   const { ID } = useParams();
@@ -37,6 +38,7 @@ const AllAppsDetails = () => {
   const handleInstall = (ID) => {
     getDataFromLS(ID);
     setIsInstalled(true);
+    toast.success(`${findApp.title} installed successfully.`);
   };
 
   const renderBarChart = (

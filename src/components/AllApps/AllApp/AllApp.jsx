@@ -24,7 +24,6 @@ const AllApp = ({ AppData }) => {
           <div className="badge flex items-center text-orange-500 bg-orange-200 border-none">
             <Star size={16} />
             <h2>{AppData.ratingAvg}</h2>
-            <h2></h2>
           </div>
         </div>
       </div>

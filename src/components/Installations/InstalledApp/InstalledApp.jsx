@@ -1,8 +1,12 @@
 import React from "react";
 import { Download, Star } from "lucide-react";
 
-const InstalledApp = ({ D }) => {
+const InstalledApp = ({ D, handleRemove }) => {
   //console.log(D);
+
+  const handleRemoveApp = (ID) => {
+    handleRemove(ID);
+  };
 
   return (
     <div className="list w-full xl:w-[1364px] rounded-box shadow-md">
@@ -29,7 +33,10 @@ const InstalledApp = ({ D }) => {
             </div>
           </div>
         </div>
-        <button className="btn bg-[#00d390] border-none w-full sm:w-auto">
+        <button
+          onClick={() => handleRemoveApp(D.id)}
+          className="btn bg-[#00d390] border-none w-full sm:w-auto"
+        >
           Uninstall
         </button>
       </li>

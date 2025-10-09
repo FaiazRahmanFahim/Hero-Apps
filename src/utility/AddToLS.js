@@ -21,4 +21,11 @@ const getDataFromLS = (ID) => {
   }
 };
 
-export { checkDataFromLS, getDataFromLS };
+const removeAppFromLS = (ID) => {
+  const AppsDataFromLS = checkDataFromLS();
+  const updatedApps = AppsDataFromLS.filter((appId) => appId !== ID);
+  const convertDataToStringify = JSON.stringify(updatedApps);
+  localStorage.setItem("appsList", convertDataToStringify);
+};
+
+export { checkDataFromLS, getDataFromLS, removeAppFromLS };

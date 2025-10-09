@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { useLoaderData } from "react-router";
-import { checkDataFromLS } from "../../utility/AddToLS";
+import { checkDataFromLS, removeAppFromLS } from "../../utility/AddToLS";
 import InstalledApp from "./InstalledApp/InstalledApp";
 
 const Installations = () => {
   const [installedApp, setInstalledApp] = useState([]);
+  const [isSort, setIsSort] = useState("");
   const getData = useLoaderData();
   //console.log(getData);
 
@@ -14,6 +15,23 @@ const Installations = () => {
     const filterData = getData.filter((data) => convertID.includes(data.id));
     setInstalledApp(filterData);
   }, [getData]);
+
+  const handleRemove = (appId) => {
+    removeAppFromLS(appId);
+    const filterData = installedApp.filter((data) => data.id !== appId);
+    setInstalledApp(filterData);
+  };
+
+  const handleSort = (type) => {
+    setIsSort(type);
+    let sortedData = [];
+    if (type === "lowToHigh") {
+      sortedData = [...installedApp].sort((a, b) => a.downloads - b.downloads);
+    } else if (type === "highToLow") {
+      sortedData = [...installedApp].sort((a, b) => b.downloads - a.downloads);
+    }
+    setInstalledApp(sortedData);
+  };
 
   return (
     <div>
@@ -30,20 +48,22 @@ const Installations = () => {
           </h3>
           <fieldset className="fieldset">
             <select
-              defaultValue="Pick a browser"
+              onChange={(Event) => handleSort(Event.target.value)}
               className="select bg-gray-100 border-2 border-gray-200"
             >
-              <option disabled={false}>Sort By Size</option>
-              <option>10MB-50MB</option>
-              <option>51MB-100MB</option>
-              <option>101MB-200MB</option>
-              <option>201MB-300MB</option>
+              <option value="">Sort By Size {isSort ? isSort : ""}</option>
+              <option value="lowToHigh">Low-High</option>
+              <option value="highToLow">High-Low</option>
             </select>
           </fieldset>
         </div>
         <div className="grid grid-flow-row md:px-10 xl:px-20 gap-5">
           {installedApp.map((D) => (
-            <InstalledApp key={D.id} D={D}></InstalledApp>
+            <InstalledApp
+              key={D.id}
+              D={D}
+              handleRemove={handleRemove}
+            ></InstalledApp>
           ))}
         </div>
       </div>

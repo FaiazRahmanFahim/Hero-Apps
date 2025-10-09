@@ -6,14 +6,18 @@ import InstalledApp from "./InstalledApp/InstalledApp";
 const Installations = () => {
   const [installedApp, setInstalledApp] = useState([]);
   const [isSort, setIsSort] = useState("");
+  const [loading, setLoading] = useState(true);
   const getData = useLoaderData();
   //console.log(getData);
 
   useEffect(() => {
-    const checkAppIsInLS = checkDataFromLS();
-    const convertID = checkAppIsInLS.map((id) => parseInt(id));
-    const filterData = getData.filter((data) => convertID.includes(data.id));
-    setInstalledApp(filterData);
+    setTimeout(() => {
+      const checkAppIsInLS = checkDataFromLS();
+      const convertID = checkAppIsInLS.map((id) => parseInt(id));
+      const filterData = getData.filter((data) => convertID.includes(data.id));
+      setInstalledApp(filterData);
+      setLoading(false);
+    }, 500);
   }, [getData]);
 
   const handleRemove = (appId) => {
@@ -24,13 +28,22 @@ const Installations = () => {
 
   const handleSort = (type) => {
     setIsSort(type);
-    let sortedData = [];
-    if (type === "lowToHigh") {
-      sortedData = [...installedApp].sort((a, b) => a.downloads - b.downloads);
-    } else if (type === "highToLow") {
-      sortedData = [...installedApp].sort((a, b) => b.downloads - a.downloads);
-    }
-    setInstalledApp(sortedData);
+    setLoading(true);
+
+    setTimeout(() => {
+      let sortedData = [];
+      if (type === "lowToHigh") {
+        sortedData = [...installedApp].sort(
+          (a, b) => a.downloads - b.downloads
+        );
+      } else if (type === "highToLow") {
+        sortedData = [...installedApp].sort(
+          (a, b) => b.downloads - a.downloads
+        );
+      }
+      setInstalledApp(sortedData);
+      setLoading(false);
+    }, 500);
   };
 
   return (
@@ -57,7 +70,7 @@ const Installations = () => {
             </select>
           </fieldset>
         </div>
-        <div className="grid grid-flow-row md:px-10 xl:px-20 gap-5">
+        {/* <div className="grid grid-flow-row md:px-10 xl:px-20 gap-5">
           {installedApp.map((D) => (
             <InstalledApp
               key={D.id}
@@ -65,7 +78,22 @@ const Installations = () => {
               handleRemove={handleRemove}
             ></InstalledApp>
           ))}
-        </div>
+        </div> */}
+        {loading ? (
+          <div className="text-center py-10">
+            <span className="loading loading-infinity loading-xl text-primary"></span>
+          </div>
+        ) : (
+          <div className="grid grid-flow-row md:px-10 xl:px-20 gap-5">
+            {installedApp.map((D) => (
+              <InstalledApp
+                key={D.id}
+                D={D}
+                handleRemove={handleRemove}
+              ></InstalledApp>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

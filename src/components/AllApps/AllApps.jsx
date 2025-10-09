@@ -7,10 +7,16 @@ const AllApps = () => {
   const navigate = useNavigate();
   const [searchApp, setSearchApp] = useState("");
   const [filteredApps, setFilteredApps] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
 
+  // useEffect(() => {
+  //   setFilteredApps(allAppsData);
+  // }, [allAppsData]);
   useEffect(() => {
-    setFilteredApps(allAppsData);
+    setTimeout(() => {
+      setFilteredApps(allAppsData);
+      setLoading(false);
+    }, 1000);
   }, [allAppsData]);
 
   const handleSearch = (text) => {
@@ -83,7 +89,7 @@ const AllApps = () => {
             <AllApp key={AppData.id} AppData={AppData}></AllApp>
           ))}
         </div> */}
-        {/* App Grid OR Loader */}
+        {/* App Loader Animation*/}
         {loading ? (
           <div className="text-center py-10">
             <span className="loading loading-infinity loading-xl text-primary"></span>
